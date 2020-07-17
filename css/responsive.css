@@ -1,0 +1,104 @@
+@media (max-width: 1000px) {
+    header {
+        display: grid;
+        justify-content: center;
+    }
+    .menu, .closeMenu {
+        position: absolute;
+        top: 0;
+        margin: 16px;
+    }
+    .menu {
+        display: block;
+    }
+    .closeMenu {
+        display: none;
+    }
+    nav, .rightNav {
+        margin: 0;
+        background: #f2f2f2;
+        width: 100%;
+        display: none;
+    }
+    nav {
+        position: absolute;
+        top: 56px;
+    }
+    nav a {
+        display: block;
+        padding: 20px;
+        border: none;
+    }
+    .rightNav {
+        position: absolute;
+        top: 294px;
+    }
+    .rightNav button {
+        display: block;
+        padding: 20px 28px;
+    }
+    .rightNav button span {
+        border: none;
+    }
+    .rightNav img {
+        display: none;
+    }
+    .megaDropdown {
+        border: none;
+        background: #333;
+        color: #fff;
+    }
+    .megaDropdown a {
+        color: #fff;
+    }
+    .megaDropdown ul {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 1150px) {
+    .bannerText {
+        width: 90%;
+        background: #ffffffe0;
+        padding: 30px 30px 50px 30px;
+        margin: auto
+    }
+    .banner2 .bannerText {
+        background: #000000ed;
+        color: #fff;
+    }
+}
+
+@media (max-width: 600px) {
+    .products {
+        display: block;
+    }
+    .card {
+        padding-top: 50px;
+    }
+    footer ul {
+        width: 100%;
+    }
+    .footerBottom .lang, .footerBottom .links {
+        float: none;
+        margin: 20px 0;
+    }
+    .footerBottom .links a {
+        margin: 0 10px 0 0;
+    }
+}
+
+@media (max-width:1200px) {
+    h2.sectionHeading, .products, .followRequest, footer, .footerBottom {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    header {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
